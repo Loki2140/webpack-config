@@ -1,0 +1,18 @@
+$primeColor: rgb(30, 238, 48);
+$secondColor: rgb(159, 197, 20);
+
+html {
+  font-family: mainFont;
+}
+
+.conteiner {
+  &__title {
+    color: $secondColor;
+    display: block;
+    height: auto;
+    background: url(../img/cat1.jpg);
+    h1 {
+      color: $primeColor;
+    }
+  }
+}
